@@ -1,0 +1,31 @@
+{
+  "author": {
+    "name": "yuxiu"
+  },
+  "bugs": {
+    "url": "http://git.showjoy.net/yuxiu/joyuitmpl-loader/issues"
+  },
+  "dependencies": {},
+  "description": "joyui template loader module for webpack",
+  "devDependencies": {},
+  "directories": {},
+  "homepage": "http://git.showjoy.net/yuxiu/joyuitmpl-loader",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://www.opensource.org/licenses/mit-license.php"
+    }
+  ],
+  "maintainers": [
+    {
+      "email": "yuxiu@showjoy.com",
+      "name": "yuxiu"
+    }
+  ],
+  "name": "joyuiTmpl-loader",
+  "repository": {
+    "type": "git",
+    "url": "git@git.showjoy.net:yuxiu/joyuitmpl-loader.git"
+  },
+  "version": "0.0.1"
+}
