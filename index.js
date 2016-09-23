@@ -24,7 +24,7 @@ module.exports = function(content) {
 	var home = process.env[(process.platform == 'win32') ? 'USERPROFILE' : 'HOME'];
     var joyuiBase = path.join(home,'.spon/mobi/');
 	var digest = hashstr(content);
-	var slab = process.slabs[digest];
+	var slab = process.slabs && process.slabs[digest];
 
 	// 有占位符的UI模块
 	if(slab){
